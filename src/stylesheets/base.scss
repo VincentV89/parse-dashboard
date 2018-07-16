@@ -36,16 +36,16 @@ body {
 
 ::-moz-selection {
   color: white;
-  background: $blue;
+  background: $yellow;
 }
 
 ::selection {
   color: white;
-  background: $blue;
+  background: $yellow;
 }
 
 a {
-  color: $blue;
+  color: $yellow;
   cursor: pointer;
   text-decoration: none;
 }
@@ -92,7 +92,7 @@ table {
 }
 
 .progressBackground {
-  background-color: $blue;
+  background-color: $yellow;
 }
 
 .failedText {
@@ -104,5 +104,5 @@ table {
 }
 
 .progressText {
-  color: $blue;
+  color: $yellow;
 }

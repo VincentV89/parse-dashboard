@@ -135,7 +135,7 @@ class Dashboard extends React.Component {
           }, error => {
             if (error.code === 100) {
               app.serverInfo = {
-                error: 'unable to connect to server',
+                error: 'unable to connect to server2',
                 enabledFeatures: {},
                 parseServerVersion: "unknown"
               }
@@ -181,7 +181,7 @@ class Dashboard extends React.Component {
       return <div className={styles.empty}>
         <div className={center}>
           <div className={styles.cloud}>
-            <Icon width={110} height={110} name='cloud-surprise' fill='#1e3b4d' />
+            <Icon width={110} height={110} name='cloud-surprise' fill='#ff8106' />
           </div>
           {/* use non-breaking hyphen for the error message to keep the filename on one line */}
           <div className={styles.loadingError}>{this.state.configLoadingError.replace(/-/g, '\u2011')}</div>

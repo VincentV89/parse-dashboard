@@ -13,7 +13,12 @@
   top: 0;
   left: 0;
   bottom: 0;
-  background: #0c5582;
+  background: #dfe3e6;
+  background-image: url('components/Sidebar/acnapixswivel.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 200px auto;
+  background-position: 1% 100%;
   color: #fff;
   transition: left 0.5s ease-in;
 }
@@ -67,7 +72,7 @@
 .footer {
   @include NotoSansFont;
   position: absolute;
-  background: #05283c;
+  background: $orange;
   height: 36px;
   line-height: 18px;
   padding: 9px 0;
@@ -101,7 +106,7 @@
 }
 
 .header {
-  background: #05283c;
+  background: $orange;
   height: 48px;
   padding: 10px 14px;
 
@@ -115,7 +120,7 @@
 .currentApp, .menuRow {
   @include ellipsis();
   display: block;
-  background: #094162;
+  background: $yellow;
   height: 48px;
   padding: 10px 14px;
 
@@ -127,7 +132,7 @@
 }
 
 .menuRow {
-  border-bottom: 1px solid #0c5582;
+  border-bottom: 1px solid $yellow;
 
   > *:first-child {
     display: inline-block;
@@ -173,11 +178,16 @@
 
 .appsMenu {
   overflow: auto;
-  background: #094162;
+  background: #dfe3e6;
   width: 300px;
+  background-image: url('components/Sidebar/acnapixswivel.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 200px auto;
+  background-position: 1% 100%;
 
   .menuRow:hover {
-    background: #0c5582;
+    background: $orange;
   }
 }
 
@@ -185,19 +195,19 @@
   @include DosisFont;
   height: 24px;
   line-height: 24px;
-  background: #0c5582;
+  background: $orange;
   color: #84A5BC;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 8px;
   padding: 0 14px;
-  border-bottom: 1px solid #094162;
+  border-bottom: 1px solid #dfe3e6;
 }
 
 .createApp {
   @include DosisFont;
   display: block;
-  background: $blue;
+  background: $orange;
   color: white;
   width: 91%;
   height: 30px;
@@ -208,12 +218,12 @@
   font-size: 12px;
 
   &:hover {
-    background: #0c5582;
+    background: $orange;
   }
 }
 
 .section {
-  background: #0c5582;
+  background: $yellow;
 
   :global(.icon) {
     margin-right: 14px;
@@ -221,12 +231,12 @@
 }
 
 .active {
-  background: #159cee;
+  background: $yellow;
 
   .section_header{
     font-weight: 700;
     &:hover{
-      background: #159cee;
+      background: $orange;
     }
   }
 }
@@ -240,7 +250,7 @@
   color: white;
 
   &:hover{
-    background-color: #0D5E91;
+    background-color: $orange;
   }
 
   > span {
@@ -253,7 +263,7 @@
 }
 
 .section_contents {
-  background: #0e69a0;
+  background: $grey;
   padding: 16px 14px 16px 50px;
 }
 
@@ -286,12 +296,12 @@ a.subitem {
   line-height: 20px;
   top: 4px;
   right: 0px;
-  background: #0c5987;
+  background: $yellow;
   color: white;
   border-radius: 3px;
 
   &:hover {
-    background: #094162;
+    background: $orange;
   }
 }
 
@@ -325,13 +335,13 @@ a.subitem {
 
 .more {
   svg {
-    fill: #0C5582;
+    fill: $yellow;
     transition: fill 0.2s ease-in;
   }
 
   &:hover {
     svg {
-      fill: $blue;
+      fill: $orange;
     }
   }
 }

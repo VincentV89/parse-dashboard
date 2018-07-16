@@ -14,12 +14,9 @@ const version = process.env.version;
 
 let SidebarHeader = () => (
 <div className={styles.header}>
-  <Link className={styles.logo} to={{ pathname: '/apps' }}>
-    <Icon width={28} height={28} name='infinity' fill={'#ffffff'} />
-  </Link>
   <Link to='/apps'>
     <div className={styles.version}>
-      <div>Parse Dashboard {version}</div>
+      <div>ACNAPI Developer Dashboard</div>
     </div>
   </Link>
 </div> );

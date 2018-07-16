@@ -1,12 +1,15 @@
 {
-  "apps": [{
-    "serverURL": "",
-    "appId": "",
-    "masterKey": "",
-    "appName": "",
-    "iconName": "",
-    "primaryBackgroundColor": "",
-    "secondaryBackgroundColor": ""
-  }],
-  "iconsFolder": "icons"
+  "apps": [
+    {
+      "serverURL": "https://parse.acnapiv3.io/vincent/parse",
+      "appId": "vincent",
+      "masterKey": "somemasterkey",
+      "appName": "vincent"
+    },{
+    "serverURL": "https://parse.acnapiv3.io/leroy/parse",
+    "appId": "leroy",
+    "masterKey": "somemasterkey",
+    "appName": "leroy"
+  }
+  ]
 }

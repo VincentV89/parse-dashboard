@@ -74,7 +74,7 @@ let AppCard = ({
 
   return <li onClick={canBrowse} style={{ background: app.primaryBackgroundColor }}>
     <a className={styles.icon}>
-      {icon ? <img src={'appicons/' + icon} width={56} height={56}/> : <Icon width={56} height={56} name='blank-app-outline' fill='#1E384D' />}
+      {icon ? <img src={'appicons/' + icon} width={56} height={56}/> : <Icon width={56} height={56} name='blank-app-outline' fill='#FFFFFF' />}
     </a>
     <div className={styles.details}>
       <a className={styles.appname}>{app.name}</a>
@@ -124,7 +124,7 @@ export default class AppsIndex extends React.Component {
         <div className={styles.empty}>
           <div className={center}>
             <div className={styles.cloud}>
-              <Icon width={110} height={110} name='cloud-surprise' fill='#1e3b4d' />
+              <Icon width={110} height={110} name='cloud-surprise' fill='#ff8106' />
             </div>
             <div className={styles.alert}>You don't have any apps</div>
           </div>
@@ -149,7 +149,7 @@ export default class AppsIndex extends React.Component {
             className={styles.search}
             onChange={this.updateSearch.bind(this)}
             value={this.state.search}
-            placeholder='Start typing to filter&hellip;' />
+            placeholder='Start typing to filter3&hellip;' />
         </div>
         <ul className={styles.apps}>
           {apps.map(app =>

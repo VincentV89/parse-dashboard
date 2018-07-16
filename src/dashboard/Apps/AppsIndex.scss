@@ -14,13 +14,13 @@
 
 .index {
   padding: 38px 30px;
-  background: #1e3b4d;
+  background: $white;//linear-gradient(to bottom right, $yellow, $orange);
   min-height: 100vh;
 }
 
 .empty {
   position: relative;
-  background: #1e3b4d;
+  background: $white;//linear-gradient(to bottom right, $yellow, $orange);
   min-height: 100vh;
   text-align: center;
 }
@@ -105,14 +105,14 @@
   li {
     display: flex;
     cursor: pointer;
-    background: #193040;
+    background: $yellow;
     border-radius: 5px;
     margin: 14px 0;
     padding: 0 9px;
     height: 74px;
 
     &:hover{
-      background: #172C3B;
+      background: #ff5c00;
     }
   }
 }
@@ -160,7 +160,7 @@
 .glance {
   flex: 0 0 auto;
   padding: 10px 12px;
-  border-left: 1px solid #1e3b4d;
+  border-left: 1px solid linear-gradient(to bottom right, $yellow, $orange);
 }
 
 .section {
